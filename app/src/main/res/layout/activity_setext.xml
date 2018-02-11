@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.geriatricks.geriatricks.SEText"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="338dp"
+        android:layout_height="233dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="188dp"
+        android:text="Social engineering is the art of manipulating people so they give up confidential information; including passwords, social security numbers, or bank information. Common social engineering attacks include: (1) Emails looking as though they are from friends, family, or businesses. Usually containing a link or a download. May be appealing to people’s desire to donate or help those in need. - to prevent this: Google the organization from which the email came to see if the website/email used is the real one or if it is friend or family contact that person directly through a means you know is secure to see if they are the ones who sent the email. (2) Over the phone - similar to email. If you receive a phone call saying that you have won a prize or if it is a person or organization asking for money. (3) Passwords should be strong: at least 15 characters, at least 1 special character, at least 1 number, and at least 1 uppercase letter."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="136dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.016"
+        app:srcCompat="@drawable/protectbanner" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Social engineering facts: (1) One in five American senior citizen is a victim of online financial fraud, costing more than $2.6 billion per year (Willis, 2015). (2) Senior citizens who are identity theft victims suffer devastating effects (Jones, 2001): (a) Loss of all their life savings, (b) Feelings of shame for being victims, (c) Decreased self-confidence, and (d) Exacerbated illnesses to include premature death."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.422"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.25" />
+
+</android.support.constraint.ConstraintLayout>

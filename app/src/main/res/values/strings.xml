@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">geriaTRICKS</string>
+    <string name="title_activity_setext">SEText</string>
+    <string name="title_activity_heart_text">HeartText</string>
+    <string name="title_activity_health_text">HealthText</string>
+    <string name="title_activity_webpage_display_page">WebpageDisplayPage</string>
+    <string name="title_activity_website_display_page">WebsiteDisplayPage</string>
+</resources>
